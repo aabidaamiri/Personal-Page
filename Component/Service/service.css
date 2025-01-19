@@ -1,0 +1,45 @@
+
+/* third page*/
+.body3{
+    background-color: rgba(238, 237, 237, 0.466);
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.charts{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 50px 130px;
+    gap: 30px;
+}
+
+.first{
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px 20px;
+    box-shadow: 0 0 10px var(--shadowcolor);
+}
+
+.first .img{
+    width: 50px;
+    margin-left: 120px;
+    font-size: 40px;
+    border-radius: 50%;
+    padding-top: 5px;
+}
+.first h1{
+    font-weight: 500;
+}
+.first p{
+    color: rgb(102, 99, 99);
+}
+.first p:hover{
+    color: black;
+}
+.first:hover{
+    background-color: var(--textcolor);
+    color: white;
+}
+.first .img:hover{
+    background-color: white;
+    color: black;
+}

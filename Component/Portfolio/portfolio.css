@@ -1,0 +1,52 @@
+.body4{
+    min-height: 86vh;
+    margin-top: 50px;
+}
+.ab {
+    width: 100%;
+    text-align: center;
+}
+.ab h5{
+    font-size: 25px;
+    margin: 0;
+}
+.ab h1{
+    margin: 5px;
+    font-size: 35px;
+    font-weight: 600;
+}
+.ab span{
+    color: var(--textcolor);
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    gap: 10px;
+    
+}
+.buttons button{
+    padding: 6px;
+    border: 1px solid var(--textcolor);
+    border-radius: 5px;
+}
+.buttons button:hover{
+    background-color: var(--textcolor);
+    color: white;
+}
+.photo-area{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 200px;
+    width: 60rem;
+}
+.photo-area img{
+    padding: 5px;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+.photo-area img:hover{
+    width: 310px;
+    height: 210px;
+}
