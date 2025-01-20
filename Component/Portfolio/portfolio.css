@@ -37,8 +37,10 @@
 .photo-area{
     height: 80vh;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 20px 140px;
     justify-content: center;
+    align-items: center;
 }
 .photo-area img{
     padding: 10px 20px;
@@ -53,12 +55,12 @@
 
 @media (max-width : 600px){
     .body4{
-        height: 220vh;
+        height: 130vh;
     }
     .photo-area{
         display: flex;
         flex-direction: column;
-        margin-top: 170px;
+        margin-top: 250px;
         justify-content: center;
         align-items: center;
     }
