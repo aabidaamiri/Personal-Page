@@ -76,7 +76,8 @@
         align-items: center;
     }
    .box{
-    margin: 20px -20px;
+    margin-top: 40px;
+    margin-left: -20px;
    }
     
 }
