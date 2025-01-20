@@ -25,16 +25,13 @@ const Portfolio = () => {
                 </div>
 
                 <div class="photo-area">
-                    <div class="picture-s">
-                        <img src={photo1} alt="" />
-                        <img src={photo2} alt="" />
-                        <img src={photo3} alt="" />
-                    </div>
-                    <div class="picture-s">
-                        <img src={photo4} alt="" />
-                        <img src={photo5} alt="" />
-                        <img src={photo6} alt="" />
-                    </div>
+
+                    <img src={photo1} alt="" />
+                    <img src={photo2} alt="" />
+                    <img src={photo3} alt="" />
+                    <img src={photo4} alt="" />
+                    <img src={photo5} alt="" />
+                    <img src={photo6} alt="" />
 
                 </div>
             </section>

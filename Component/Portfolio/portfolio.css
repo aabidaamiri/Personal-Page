@@ -35,15 +35,13 @@
     color: white;
 }
 .photo-area{
-    
-    height: 90vh;
+    height: 80vh;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     justify-content: center;
-    
 }
 .photo-area img{
-    padding: 10px;
+    padding: 10px 20px;
     width: 300px;
     height: 200px;
     border-radius: 30px;
@@ -55,10 +53,21 @@
 
 @media (max-width : 600px){
     .body4{
-        height: 200vh;
+        height: 220vh;
     }
     .photo-area{
-        margin-left: 60px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 170px;
+        justify-content: center;
+        align-items: center;
+    }
+    .photo-area img{
+        width: 250px;
+        height: 150px;
+    }
+    .photo-area img:hover{
+        display: none;
     }
     
 }
