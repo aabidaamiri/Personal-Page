@@ -10,7 +10,7 @@ const Service = () => {
       <section id="service" class="body3">
         <div class="ab">
             <h5>Sevices</h5>
-            <h1>Services <span>That i can provide for you</span> </h1>
+            <h1 class="heading">Services <span>That i can provide for you</span> </h1>
         </div>
 
         <div class="charts">

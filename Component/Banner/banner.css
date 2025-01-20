@@ -40,3 +40,12 @@
     background-color: white;
     color: var(--textcolor);
 }
+
+@media (max-width: 600px){
+    .text-banner p{
+        padding: 0 50px;
+    }
+    .button-banner{
+        margin-top: -5px;
+    }
+}

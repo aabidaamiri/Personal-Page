@@ -4,6 +4,8 @@
 }
 
 body{
+    
+    height: auto;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -49,11 +51,12 @@ header img{
     display: none;
 }
 
-@media (max-width: 933px){
+@media (max-width: 600px){
     nav{
         display: none;
     }
     header{
+        position: sticky;
         justify-content: space-between;
         padding-left: 20px;
         padding-right: 20px;

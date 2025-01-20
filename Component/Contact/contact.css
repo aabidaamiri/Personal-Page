@@ -1,7 +1,7 @@
 .body5{
     margin-top: 50px;
     padding-top: 50px;
-    height: 80vh;
+    height: auto;
     background-color: rgba(238, 238, 238, 0.342);
 }
 
@@ -21,9 +21,6 @@
 }
 
 
-.contact-right{
-    
-}
 .contact-info{
     display: flex;
     justify-content: space-between;
@@ -56,4 +53,59 @@
     border-radius: 10px;
     border: none;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.158);
+}
+
+@media (max-width: 600px ){
+    .body5{
+        height: 75vh;
+    }
+    .contact-area{
+        display: block;
+    }
+    .contact-area{
+        padding: 0 60px;
+    }
+    .contact-left{
+        margin-top: 10px;
+    }
+    .contact-photo img{
+        height: 120px;
+        width: 200px;
+        margin: 20px 50px;
+    }
+
+    .contact-right{
+        width: 350px;
+        margin-left: -20px;
+        position: relative;
+    }
+    .contact-info input{
+        width: 130px;
+        margin: 0 2px;
+        height: 35px;
+        padding: 0 20px;
+        border-radius: 10px;
+        border: none;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.158);
+    }
+    
+.contact-info-down input{
+    width: 310px;
+    margin-top: 15px;
+    height: 35px;
+    padding: 0 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.158);
+}
+
+.contact-info-down textarea{
+    width: 310px;
+    padding: 10px 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.158);
+}
 }

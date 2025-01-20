@@ -1,9 +1,9 @@
 
 .body2{
+    height: auto;
     margin-top: 50px;
 }
 .ab {
-    width: 100%;
     text-align: center;
 }
 
@@ -119,4 +119,29 @@ progress::-webkit-progress-bar{
 progress::-webkit-progress-value{
     background-color: var(--textcolor);
     box-shadow: inset 2px 4px 10px rgba(0, 0, 0, 0.342);
+}
+
+
+@media (max-width: 600px){
+    .body2{
+        margin: 20px 30px;
+    }
+
+    .divi{
+        margin: 0;
+        padding: 60px;
+    }
+    .divi .left{
+        margin: 0;
+    }
+    .divi{
+        display: block;
+        padding: 50px 10px;
+    }
+    .right{
+        margin-top: 120px;
+    }
+   
+    
+    
 }
