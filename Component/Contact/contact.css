@@ -1,7 +1,7 @@
 .body5{
     margin-top: 50px;
     padding-top: 50px;
-    height: auto;
+    height: 80vh;
     background-color: rgba(238, 238, 238, 0.342);
 }
 
@@ -57,7 +57,7 @@
 
 @media (max-width: 600px ){
     .body5{
-        height: 75vh;
+        height: 85vh;
     }
     .contact-area{
         display: block;
@@ -71,7 +71,7 @@
     .contact-photo img{
         height: 120px;
         width: 200px;
-        margin: 20px 50px;
+        margin: 20px 10px;
     }
 
     .contact-right{
