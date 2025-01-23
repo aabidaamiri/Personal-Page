@@ -63,7 +63,9 @@
         align-items: center;
     }
     .contact-area{
-        display: block;
+        background-color: aqua;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
@@ -76,7 +78,6 @@
         width: 200px;
         justify-content: center;
         align-items: center;
-        margin-left: 50px;
         margin-bottom: 30px;
     }
 

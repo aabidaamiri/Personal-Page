@@ -25,14 +25,12 @@ const Portfolio = () => {
                 </div>
 
                 <div class="photo-area">
-
                     <img src={photo1} alt="" />
                     <img src={photo2} alt="" />
                     <img src={photo3} alt="" />
                     <img src={photo4} alt="" />
                     <img src={photo5} alt="" />
                     <img src={photo6} alt="" />
-
                 </div>
             </section>
         </div>

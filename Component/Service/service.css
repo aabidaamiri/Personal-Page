@@ -4,13 +4,17 @@
     padding-top: 70px;
     padding-bottom: 70px;
     justify-content: center;
+    align-items: center;
 }
 
 .grid-system{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
+    gap: 50px;
     margin-top: 2rem;
-    margin: 40px 90px;
+    justify-content: center;
+    margin: 50px 50px;
+    padding: 0px 110px;
 }
 
 .box{
@@ -71,13 +75,15 @@
 
 @media (max-width: 600px){
     .grid-system{
-        display: block;
+        
+        padding: 0;
+        margin: 50px 0;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-   .box{
-    margin-top: 40px;
-    margin-left: -20px;
-   }
+    
+   
     
 }
