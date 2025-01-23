@@ -63,7 +63,7 @@
         align-items: center;
     }
     .contact-area{
-        background-color: aqua;
+        
         display: flex;
         flex-direction: column;
         justify-content: center;
